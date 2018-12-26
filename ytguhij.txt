@@ -1,0 +1,6 @@
+Dim intFile As Integer
+  Dim strData As String
+  intFile = FreeFile
+  Open strFile For Input As #intFile
+    strData = Input(LOF(intFile), #intFile)
+  Close #intFile

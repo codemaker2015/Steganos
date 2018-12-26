@@ -1,0 +1,18 @@
+Private Sub Command1_Click()
+    CommonDialog1.ShowOpen
+    Picture1.Picture = LoadPicture(CommonDialog1.FileName)
+End Sub
+
+Private Sub Picture1_Change()
+   Call AutoSizeToPicture(Picture1)
+End Sub
+
+Private Sub AutoSizeToPicture(Picture1 As PictureBox)
+    Picture1.ScaleMode = 3
+    Picture1.AutoRedraw = True
+    Picture1.PaintPicture Picture1.Picture, _
+    0, 0, Picture1.ScaleWidth, Picture1.ScaleHeight, _
+    0, 0, Picture1.Picture.Width / 26.46, _
+    Picture1.Picture.Height / 26.46
+End Sub
+

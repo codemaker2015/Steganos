@@ -1,0 +1,16 @@
+frmFileManagerFile = 182, 182, 1069, 624, C, 52, 52, 939, 494, C
+frmLogin = 52, 52, 1032, 443, C, 104, 104, 991, 546, C
+frmStegnographyImage = 179, 48, 1066, 500, Z, 156, 156, 1043, 608, C
+frmStegnographyText = 208, 208, 1095, 660, C, 182, 182, 1069, 634, C
+Stego = 156, 156, 1043, 598, C
+frmFileManagerFolder = 89, 103, 976, 545, , 78, 78, 965, 520, C
+frmFileManagerDrive = 156, 156, 1043, 598, , 104, 104, 991, 545, C
+Module1 = 182, 114, 1069, 556, C
+frmOption2 = 110, 145, 1433, 725, , 52, 52, 939, 504, C
+frmSplash = 0, 0, 0, 0, C, 66, 87, 1389, 667, C
+frmCipher = 66, 87, 1478, 609, C, 44, 58, 1367, 638, C
+frmPaperVersion = 0, 0, 0, 0, C, 88, 116, 1411, 696, C
+modCrypto = 0, 0, 0, 0, C
+modPrint = 0, 0, 0, 0, C
+frmOptions = 132, 174, 1455, 754, , 176, 232, 1499, 812, C
+frmPreview = 44, 58, 1364, 638, , 22, 29, 1345, 609, C
